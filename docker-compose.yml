@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  portfolio_api:
+    build: .
+    container_name: portfolio_api
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/code       
+    environment:
+      - ENV=production
