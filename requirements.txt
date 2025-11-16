@@ -1,3 +1,12 @@
+# Install code formatting and linting tools
+black
+isort 
+flake8 
+mypy 
+pylint 
+bandit 
+pre-commit
+# Install other dependencies
 fastapi
 uvicorn
 sqlalchemy
